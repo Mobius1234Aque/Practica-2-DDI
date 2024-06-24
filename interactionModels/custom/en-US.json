@@ -1,0 +1,46 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hello world",
+            "say hello",
+            "Hello World"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "WosFactIntent",
+          "samples": [
+            "What do you know about Wos",
+            "Give me a Wos fact",
+            "Tell me a fact about Wos"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "wos my life"
+    }
+  }
+}
